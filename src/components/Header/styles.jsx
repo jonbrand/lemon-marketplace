@@ -5,6 +5,7 @@ export const HeaderContainer = styled.div`
     background: var(--background-primary);
     color: black;
     height: 100px;
+    width: 100vw;
 
     display: flex;
     justify-content: space-between;
