@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
 export const CollectionCardContainer = styled.div`
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  background: var(--background-primary);
+
+  display: flex;
+  justify-content: space-around;
+
 `;
 
-export const CollectionCard = styled.h1`
+export const CollectionCard = styled.div`
   color: white;
   background-color: #1c1c1e;
   border-radius: 20px;
@@ -13,7 +18,6 @@ export const CollectionCard = styled.h1`
   width: 300px;
   height: 500px;
   margin-left: 30px;
-  margin-top: 30px;
 
   > img {
     width: 100%;

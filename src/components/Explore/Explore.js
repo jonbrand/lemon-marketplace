@@ -24,6 +24,33 @@ export const Explore = () => {
           </PriceContainer>
         </Details>
       </CollectionCard>
+
+      <CollectionCard>
+        <img src={image} alt='' />
+        <Details>
+          <Name>
+            HackPunk
+          </Name>
+          <PriceContainer>
+            <img src={weth} alt='ethereum' />
+            <Price>1.0</Price>
+          </PriceContainer>
+        </Details>
+      </CollectionCard>
+
+      <CollectionCard>
+        <img src={image} alt='' />
+        <Details>
+          <Name>
+            HackPunk
+          </Name>
+          <PriceContainer>
+            <img src={weth} alt='ethereum' />
+            <Price>1.0</Price>
+          </PriceContainer>
+        </Details>
+      </CollectionCard>
+      
     </CollectionCardContainer>
   )
 }
