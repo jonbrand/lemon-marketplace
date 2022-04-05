@@ -22,6 +22,14 @@ export const HeaderLogoContainer = styled.div`
     }
 `;
 
+export const LinkLogo = styled(Link)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+`
+
 export const LogoTitle = styled.div`
     font-size: 26px;
     font-family: 'Montserrat', sans-serif;

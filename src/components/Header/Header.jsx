@@ -5,7 +5,8 @@ import
     HeaderItemsContainer, 
     HeaderLogoContainer, 
     HeaderSearchBarContainer, 
-    LinkButtons, 
+    LinkButtons,
+    LinkLogo, 
     LogoTitle, 
     SearchBar, 
     SearchBarIconContainer 
@@ -19,13 +20,15 @@ export const Header = () => {
         <HeaderContainer>
             <HeaderLogoContainer>
                 <img src={logo} alt='logo' />
-                <LogoTitle>Lemonade</LogoTitle>
+                <LinkLogo to='/'>
+                    <LogoTitle>Lemonade</LogoTitle>
+                </LinkLogo>
             </HeaderLogoContainer>
             <HeaderItemsContainer>
-                <LinkButtons to="/profile">Explorar</LinkButtons>
-                <LinkButtons to="/profile">Minhas NFT's</LinkButtons>
-                <LinkButtons to="/profile">Criar</LinkButtons>
-                <LinkButtons to="/profile">Quem Somos</LinkButtons>
+                <LinkButtons to="/">Explorar</LinkButtons>
+                <LinkButtons to="/MyPurchases">Minhas Compras</LinkButtons>
+                <LinkButtons to="/create">Criar</LinkButtons>
+                <LinkButtons to="/about">Quem Somos</LinkButtons>
             </HeaderItemsContainer>
             <HeaderSearchBarContainer>
                 <SearchBarIconContainer>
